@@ -152,8 +152,8 @@ static struct asustor_driver_data asustor_6700_driver_data = {
 static const struct dmi_system_id asustor_systems[] = {
 	{
 		.matches = {
-			DMI_EXACT_MATCH(DMI_SYS_VENDOR, "Intel Corporation"),
-			DMI_EXACT_MATCH(DMI_PRODUCT_NAME, "Jasper Lake Client Platform"),
+			DMI_EXACT_MATCH(DMI_SYS_VENDOR, "INSYDE Corp."),
+			DMI_EXACT_MATCH(DMI_PRODUCT_NAME, "GeminiLake"),
 		},
 		.driver_data = &asustor_6700_driver_data,
 	},
